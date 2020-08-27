@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+
+//component imports
+import Heading from './components/heading/Heading';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Welcome to my Portfolio</h1>
+      <Heading />
     </div>
   );
 }
