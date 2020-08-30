@@ -3,18 +3,27 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 
   .heading {
-    padding-top: 12%;
+    width: 90%;
     display: flex;
-    flex-direction: column;
-  }
+    align-items: center;
 
-  .button-container {
-    margin-top: 20px;
-    margin-left: 20%;
-    display: flex;
-    justify-content: space-between;
-    width: 25%;
+    .heading-section {
+      margin-left: 10%;
+
+      .button-container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+      }
+    }
+
+    .img-section {
+      width: 55%;
+    }
   }
 }
