@@ -3,4 +3,18 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
+
+  .heading {
+    padding-top: 12%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button-container {
+    margin-top: 20px;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+  }
 }
