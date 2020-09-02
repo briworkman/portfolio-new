@@ -1,10 +1,10 @@
-import keyFeed from '../assets/images/key-feed.png';
-import keyProfile from '../assets/images/key-profile.png';
-import keyLogin from '../assets/images/key-login.png';
-import movieBox from '../assets/images/movie-box.gif';
-import covid from '../assets/images/covid.gif';
-import recipe from '../assets/images/recipe-cheqr.gif';
-import gitHub from '../assets/images/github-profile.gif';
+import keyFeed from '../assets/projectImages/key-feed.png';
+import keyProfile from '../assets/projectImages/key-profile.png';
+import keyLogin from '../assets/projectImages/key-login.png';
+import movieBox from '../assets/projectImages/movie-box.gif';
+import covid from '../assets/projectImages/covid.gif';
+import recipe from '../assets/projectImages/recipe-cheqr.gif';
+import gitHub from '../assets/projectImages/github-profile.gif';
 
 const projects = [
   {
