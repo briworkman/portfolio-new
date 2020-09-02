@@ -1,9 +1,13 @@
 import React from 'react';
+import './icon.scss';
+
+//icon imports
+import angular from '../../assets/images/angular-logo.svg';
 
 const Icon = () => {
   return (
     <div>
-      <h1>Icon here</h1>
+      <img src={angular} className='icon' />
     </div>
   );
 };
