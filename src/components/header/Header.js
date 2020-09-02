@@ -8,7 +8,7 @@ import HeaderImg from '../header-img/HeaderImg';
 
 import './header.scss';
 
-function Header() {
+const Header = () => {
   return (
     <div className='header-container'>
       <section className='heading'>
@@ -26,6 +26,6 @@ function Header() {
       </section>
     </div>
   );
-}
+};
 
 export default Header;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './heading.scss';
 
-function Heading() {
+const Heading = () => {
   return (
     <div className='heading-container'>
       <p className='header-p'>Hi, my name is</p>
@@ -9,6 +9,6 @@ function Heading() {
       <h2 className='h2-dark'>I am a Software Engineer.</h2>
     </div>
   );
-}
+};
 
 export default Heading;

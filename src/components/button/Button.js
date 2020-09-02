@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './button.scss';
 import resume from '../../assets/Brianna_Workman_Resume.pdf';
 
-function Button(props) {
+const Button = (props) => {
   const [email] = useState('brianna-workman@lambdastudents.com');
   const [showToast, setShowToast] = useState(false);
   const [toastText, setToastText] = useState('');
@@ -33,6 +33,6 @@ function Button(props) {
       {showToast && <div className='snackbar'>{toastText}</div>}
     </div>
   );
-}
+};
 
 export default Button;
