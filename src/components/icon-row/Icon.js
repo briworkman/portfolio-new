@@ -1,13 +1,10 @@
 import React from 'react';
 import './icon.scss';
 
-//icon imports
-import angular from '../../assets/images/angular-logo.svg';
-
-const Icon = () => {
+const Icon = ({ source }) => {
   return (
     <div>
-      <img src={angular} className='icon' />
+      <img src={source} className='icon' alt='stack icon' />
     </div>
   );
 };
