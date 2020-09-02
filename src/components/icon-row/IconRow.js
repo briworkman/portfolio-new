@@ -1,5 +1,6 @@
 import React from 'react';
 import Icon from './Icon';
+import './icon-row.scss';
 
 //icon imports
 import angular from '../../assets/images/angular-logo.svg';
@@ -11,7 +12,7 @@ import javascript from '../../assets/images/javascript-icon.svg';
 const IconRow = () => {
   let icons = [angular, react, node, typescript, javascript];
   return (
-    <div>
+    <div className='icon-row-container'>
       {icons.map((icon) => {
         return <Icon source={icon} key={icon} />;
       })}
