@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div>
       {projectInfo.map((project) => {
-        return <Card projectInfo={project} />;
+        return <Card key={project.id} projectInfo={project} />;
       })}
     </div>
   );

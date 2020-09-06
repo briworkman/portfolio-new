@@ -5,7 +5,7 @@ const Card = ({ projectInfo }) => {
   console.log(projectInfo);
   return (
     <div className='card-container'>
-      <h1>Card here</h1>
+      <h1>{projectInfo.title}</h1>
     </div>
   );
 };

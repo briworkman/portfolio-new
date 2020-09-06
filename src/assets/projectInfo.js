@@ -8,6 +8,7 @@ import gitHub from '../assets/projectImages/github-profile.gif';
 
 const projects = [
   {
+    id: 1,
     img: [movieBox],
     title: 'Movie Box',
     github_url: 'https://github.com/briworkman/movie-box-new',
@@ -19,6 +20,7 @@ const projects = [
     api_url: 'https://www.themoviedb.org/?language=en-US',
   },
   {
+    id: 2,
     img: [gitHub],
     title: 'My GitHub Profile',
     github_url: 'https://github.com/briworkman/github-profile',
@@ -30,6 +32,7 @@ const projects = [
     api_url: 'https://developer.github.com/v4/',
   },
   {
+    id: 3,
     img: [recipe],
     title: 'Recipe Cheqr',
     github_url: 'https://github.com/irisjitomo/recipe-site-7days7websites',
@@ -41,6 +44,7 @@ const projects = [
     api_url: 'https://rapidapi.com/user/spoonacular',
   },
   {
+    id: 4,
     img: [covid],
     title: 'COVID-19 Dashboard',
     github_url: 'https://github.com/briworkman/covid-19',
@@ -52,6 +56,7 @@ const projects = [
     api_url: null,
   },
   {
+    id: 5,
     img: [keyLogin, keyFeed, keyProfile],
     title: 'Key Conservation',
     github_url: 'https://github.com/Lambda-School-Labs?q=key&type=&language=',
