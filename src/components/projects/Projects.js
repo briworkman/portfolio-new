@@ -1,10 +1,13 @@
 import React from 'react';
 import Card from './card/Card';
+import projectInfo from '../../assets/projectInfo';
 
 const Projects = () => {
   return (
     <div>
-      <Card />
+      {projectInfo.map((project) => {
+        return <Card projectInfo={project} />;
+      })}
     </div>
   );
 };

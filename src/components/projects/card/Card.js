@@ -1,7 +1,8 @@
 import React from 'react';
 import './card.scss';
 
-const Card = () => {
+const Card = ({ projectInfo }) => {
+  console.log(projectInfo);
   return (
     <div className='card-container'>
       <h1>Card here</h1>
