@@ -6,7 +6,7 @@ import './projects.scss';
 const Projects = () => {
   return (
     <div className='project-container'>
-      <h2>My Projects</h2>
+      <h2 className='project-label'>My Projects</h2>
       <div className='projects'>
         {projectInfo.map((project) => {
           return <Card key={project.id} projectInfo={project} />;
