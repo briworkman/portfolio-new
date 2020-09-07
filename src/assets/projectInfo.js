@@ -1,8 +1,5 @@
-import keyFeed from '../assets/projectImages/key-feed.png';
-import keyProfile from '../assets/projectImages/key-profile.png';
-import keyLogin from '../assets/projectImages/key-login.png';
+import key from '../assets/projectImages/key-con.png';
 import movieBox from '../assets/projectImages/movie-box.gif';
-import covid from '../assets/projectImages/covid.gif';
 import recipe from '../assets/projectImages/recipe-cheqr.gif';
 import gitHub from '../assets/projectImages/github-profile.gif';
 
@@ -44,29 +41,17 @@ const projects = [
     api_url: 'https://rapidapi.com/user/spoonacular',
   },
   {
-    id: 4,
-    img: [covid],
-    title: 'COVID-19 Dashboard',
-    github_url: 'https://github.com/briworkman/covid-19',
-    live_url: 'https://ncovid-19-dashboard.netlify.app',
+    id: 5,
+    img: [key],
+    title: 'Key Conservation',
+    github_url: 'https://github.com/Lambda-School-Labs?q=key&type=&language=',
+    live_url: null,
     description:
-      "The COVID-19 Dashboard helps you to track the virus and it's impact all over the world by displaying current statistics in an easy to understand, visual way. All data is updated at least once a day via active APIs",
-    role: 'front end',
-    built_with: ['React'],
+      'Key Conservation is helping conservationists gain critical funding and global support through a mobile app that provides real-time updates on day-to-day campaigns. The Key Conservation app has a scrolling live feed that updates as needs from conservationists occur around the world in real-time.',
+    role: 'scrolling live feed and the connect/follow feature',
+    built_with: ['React Native & Redux', 'Node.js & Express'],
     api_url: null,
   },
-  // {
-  //   id: 5,
-  //   img: [keyLogin, keyFeed, keyProfile],
-  //   title: 'Key Conservation',
-  //   github_url: 'https://github.com/Lambda-School-Labs?q=key&type=&language=',
-  //   live_url: null,
-  //   description:
-  //     'Key Conservation is helping conservationists gain critical funding and global support through a mobile app that provides real-time updates on day-to-day campaigns. The Key Conservation app has a scrolling live feed that updates as needs from conservationists occur around the world in real-time.',
-  //   role: 'scrolling live feed and the connect/follow feature',
-  //   built_with: ['React Native & Redux', 'Node.js & Express'],
-  //   api_url: null,
-  // },
 ];
 
 export default projects;
