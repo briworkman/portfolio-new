@@ -4,4 +4,14 @@
   background-color: #ffffff;
   border: 1px solid #c4c4c4;
   border-radius: 10px;
+
+  .icon-links {
+    display: flex;
+    justify-content: space-between;
+
+    .link {
+      width: 25px;
+      height: 25px;
+    }
+  }
 }
