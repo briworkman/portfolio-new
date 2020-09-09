@@ -10,6 +10,7 @@ const Card = ({ projectInfo }) => {
     <div className='card-container'>
       <Image source={projectInfo.img.map((img) => img)} />
       <h1>{projectInfo.title}</h1>
+      <p>{projectInfo.description}</p>
       <div className='icon-links'>
         <a
           href={projectInfo.github_url}
