@@ -18,13 +18,15 @@ const Card = ({ projectInfo }) => {
         >
           <img src={github} alt='View GitHub Repository' className='link' />
         </a>
-        <a
-          href={projectInfo.live_url}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <img src={launch} alt='View Live' className='link' />
-        </a>
+        {projectInfo.live_url ? (
+          <a
+            href={projectInfo.live_url}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img src={launch} alt='View Live' className='link' />
+          </a>
+        ) : null}
       </div>
     </div>
   );
